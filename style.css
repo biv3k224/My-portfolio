@@ -356,6 +356,33 @@ section {
   box-shadow: 0 12px 28px rgba(74, 60, 42, 0.25);
 }
 
+/* SKILLS SECTION */
+#skills {
+  position: relative;
+}
+
+.skills-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.skills-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--brown-medium);
+  font-weight: 500;
+}
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -535,3 +562,4 @@ footer p {
   text-align: center;
   color: var(--brown-dark);
 }
+
