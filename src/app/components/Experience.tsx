@@ -7,7 +7,7 @@ export function Experience() {
       title: "Software Developer Intern",
       company: "Dallo Tech",
       location: "Remote",
-      period: "Jun 2024 - Aug 2024",
+      period: "Jan 2025 - Jun 2025",
       achievements: [
         "Improved API response time by 35% through database query optimization and Redis caching implementation",
         "Developed microservices handling 5,000+ concurrent requests with Spring Boot and Docker",
