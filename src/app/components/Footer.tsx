@@ -63,7 +63,7 @@ export function Footer() {
             <h4 className="font-semibold text-gray-800 mb-4">Connect With Me</h4>
             <div className="flex gap-4 mb-4">
               <a
-                href="https://github.com"
+                href="https://github.com/biv3k224"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white rounded-lg border border-orange-200 hover:border-orange-400 hover:shadow-md transition-all group"
@@ -71,7 +71,7 @@ export function Footer() {
                 <Github className="h-5 w-5 text-gray-700 group-hover:text-orange-600 transition-colors" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/btamang/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-white rounded-lg border border-orange-200 hover:border-orange-400 hover:shadow-md transition-all group"

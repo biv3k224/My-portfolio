@@ -31,13 +31,13 @@ export function Contact() {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/bibektamang",
-      link: "https://linkedin.com",
+      link: "linkedin.com/in/bibektamang",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "github.com/bibektamang",
-      link: "https://github.com",
+      link: "github.com/bibektamang",
     },
     {
       icon: MapPin,
@@ -135,7 +135,7 @@ export function Contact() {
               <p className="text-gray-700 mb-4 font-medium">Find me on social media:</p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/biv3k224"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-white rounded-lg border border-orange-200 hover:border-orange-400 hover:shadow-md transition-all group"
@@ -143,7 +143,7 @@ export function Contact() {
                   <Github className="h-6 w-6 text-gray-700 group-hover:text-orange-600 transition-colors" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/btamang/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-white rounded-lg border border-orange-200 hover:border-orange-400 hover:shadow-md transition-all group"
@@ -180,7 +180,7 @@ export function Contact() {
                     type="text"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     required
                     className="w-full border-orange-200 focus:border-orange-400 focus:ring-orange-400"
                   />
